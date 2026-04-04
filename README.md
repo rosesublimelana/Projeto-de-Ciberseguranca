@@ -60,6 +60,23 @@ Além de capturar requisições HTTP e DNS, a análise no Wireshark revelou:
 
 ---
 
+## 📸 Evidências da Interceptação
+
+Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análise do tráfego:
+
+### 1. Envenenamento ARP (Ettercap)
+![Ettercap Config](evidencias/nome_da_sua_foto_do_ettercap.png)
+*Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
+
+### 2. Captura de Tráfego (Wireshark)
+![Wireshark Geral](evidencias/nome_da_sua_foto_do_wireshark.png)
+*Legenda: Filtro aplicado para o IP do celular, mostrando pacotes HTTP e DNS.*
+
+### 3. Análise de Apps (WhatsApp/Instagram)
+![WhatsApp/Insta](evidencias/nome_da_sua_foto_do_insta.png)
+*Legenda: Tráfego cifrado via TLS/QUIC, garantindo a privacidade dos dados.*
+
+
 ## 🎓 Conclusão
 O projeto evidenciou que, embora o ataque MITM seja eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem. Este estudo reforça a importância de protocolos de segurança em camadas.
 
