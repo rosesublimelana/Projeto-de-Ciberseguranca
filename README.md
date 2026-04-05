@@ -88,7 +88,7 @@ Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de le
 ### 3. Visão Geral do Ataque
 *   **Painel de Interceptação:**
  <p align="left">
-  <img src="evidencias/...jpeg" width="55%">
+  <img src="evidencias/interceptacao.jpeg" width="55%">
 </p>
 
  * *Legenda: Fluxo de pacotes do alvo sendo redirecionado para a máquina atacante (Kali Linux).*
@@ -115,7 +115,10 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 
 ---
 ## 🎓 Conclusão
-O projeto evidenciou que, embora o ataque MITM seja eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem. Este estudo reforça a importância de protocolos de segurança em camadas.
+O projeto evidenciou que, embora o ataque MITM seja eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
 
 ---
-**Desenvolvido por Laura Naiane** 🚀
+> *Os endereços IP exibidos nas capturas são privados (locais) e foram utilizados apenas para fins didáticos em ambiente de teste controlado, assim também as imagens disponibilizadas para fins de evidências são de minha autoria e foram retiradas apenas para fins didáticos!*
+
+---
+**Projeto desenvolvido por Laura Naiane** 🚀
