@@ -87,7 +87,7 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 *Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
 
 ### 2. Captura de Tráfego (Wireshark)
-![Wireshark Geral](evidencias/..)
+![Wireshark Geral](evidencias/filtrowireshark.jpeg)
 *Legenda: Filtro aplicado para o IP do celular, mostrando pacotes HTTP e DNS.*
 
 ### 3. Análise de Apps (WhatsApp/Instagram)
