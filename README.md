@@ -51,12 +51,30 @@ Além de capturar requisições HTTP e DNS, a análise no Wireshark revelou:
     * *Nota técnica:* Diferente de algumas aplicações simples, o WhatsApp e Instagram utilizam criptografia (TLS/SSL). No Wireshark, observei pacotes do tipo **Application Data**, o que demonstra que, embora o conteúdo esteja protegido, o atacante ainda consegue mapear para quais servidores o host está se conectando.
 
 ---
+## 📸 Evidências da Interceptação Técnica
 
-## 📊 Evidências (Prints)
-> **Dica:** Para os prints aparecerem aqui, você deve clicar em "Add file" no GitHub, subir as imagens e usar o código abaixo com o nome exato do arquivo:
+Abaixo estão as capturas detalhadas realizadas durante o ataque MITM, organizadas por tipo de tráfego:
 
-![Captura do Wireshark](NOME_DA_SUA_IMAGEM.png)
-*Legenda: Análise de pacotes HTTP capturados durante o acesso ao site do Detran-CE.*
+### 1. Análise de Criptografia e Protocolos Seguros
+Neste cenário, observamos como o TLS protege os dados, mesmo com a interceptação ativa.
+*   **Tráfego WhatsApp:** ![WhatsApp](evidencias/trafegowhatsapp.jpeg)
+
+*   **Protocolo TLS (Geral):** ![TLS](evidencias/trafegoTLS.jpeg)
+
+*   
+### 2. Estudo de Caso: Spotify e Detran.ce.gov (TCP Stream)
+Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de leitura dos dados via Stream.
+*   **Tráfego Geral do Spotify e acesso ao site do detran.ce:** ![Spotify](evidencias/trafegospotify.jpeg)
+
+*   **Google (Tráfego Cifrado):** ![Google](evidencias/trafegocomcriptografiagoogle.jpeg)
+
+*   **Análise de Conteúdo (TCP Stream):** ![TCP Stream](evidencias/trafegosemcriptografiaspotify.jpeg)
+    * *Nota: Através do "Follow TCP Stream", foi possível analisar a estrutura dos pacotes, evidenciando onde a criptografia impede a leitura de dados sensíveis.*
+
+
+### 3. Visão Geral do Ataque
+*   **Painel de Interceptação:** ![Interceptação](evidencias/trafegointerceptado.jpeg)
+    * *Legenda: Fluxo de pacotes do alvo sendo redirecionado para a máquina atacante (Kali Linux).*
 
 ---
 
@@ -65,15 +83,15 @@ Além de capturar requisições HTTP e DNS, a análise no Wireshark revelou:
 Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análise do tráfego:
 
 ### 1. Envenenamento ARP (Ettercap)
-![Ettercap Config](evidencias/nome_da_sua_foto_do_ettercap.png)
+![Ettercap Config](evidencias/..)
 *Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
 
 ### 2. Captura de Tráfego (Wireshark)
-![Wireshark Geral](evidencias/nome_da_sua_foto_do_wireshark.png)
+![Wireshark Geral](evidencias/..)
 *Legenda: Filtro aplicado para o IP do celular, mostrando pacotes HTTP e DNS.*
 
 ### 3. Análise de Apps (WhatsApp/Instagram)
-![WhatsApp/Insta](evidencias/nome_da_sua_foto_do_insta.png)
+![WhatsApp/Insta](evidencias/..)
 *Legenda: Tráfego cifrado via TLS/QUIC, garantindo a privacidade dos dados.*
 
 
