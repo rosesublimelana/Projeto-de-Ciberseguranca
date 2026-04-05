@@ -112,7 +112,7 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 <p align="left">
   <img src="evidencias/filtrowireshark.jpeg" width="55%">
 </p>
-*Legenda: Filtro aplicado para o IP do celular, mostrando pacotes HTTP e DNS.*
+*Legenda: Filtro aplicado para o IP do celular, mostrando pacotes TCP e UDP*
 
 ---
 ## 🎓 Conclusão
