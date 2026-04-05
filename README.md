@@ -1,6 +1,7 @@
 # 🛡️ Projeto de Cibersegurança
->1° parte
 # 💡 Simulação de Ataque MITM e Análise de Tráfego de Rede
+> License: GPLv3
+
    ## **Objetivo do projeto**
 Tenho como objetivo explorar vulnerabilidades de certificados e criptografia (SSL/TLS) e demonstrar a importância de protocolos de segurança e da defesa em profundidade para diminuir os riscos de ataques como MITM, por meio da exploração das vulnerabilidades do protocolo ARP e ataques em ambientes controlados.
 
