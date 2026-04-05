@@ -28,9 +28,9 @@ Utilizei o **Ettercap** para envenenar a tabela ARP do alvo (celular) e do gatew
 
 3. Utilize o **Ettercap** para escanear os hosts e definir o Gateway (Target 1) e o Celular (Target 2).
 
-4. Iniciei o **ARP Poisoning** do modo **MITM** para redirecionar o tráfego.
+4. Iniciei o **ARP Spoofing** do modo **MITM** para redirecionar o tráfego.
 
-5. Capturei os pacotes no **Wireshark** , posteriormente filtrando pelo IP do alvo.
+5. Capturei os pacotes no **Wireshark** , posteriormente filtrando com IP do alvo.
 
 
 ### 2. 🫆 Análise de Alvos Específicos
