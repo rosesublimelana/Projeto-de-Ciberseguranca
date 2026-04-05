@@ -69,12 +69,12 @@ Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de le
 
 *   **Tráfego Geral do Spotify e acesso ao site do detran.ce:** 
  <p align="left">
-  <img src="evidencias/tcpstreamgoogle.jpeg" width="55%">
+  <img src="evidencias/trafegositespotify.jpeg" width="55%">
 </p>
 
 *   **Análise de Conteúdo Spotify(TCP/UDP Stream):**
  <p align="left">
-  <img src="evidencias/.jpeg" width="55%">
+  <img src="evidencias/nocriptografia.jpeg" width="55%">
 </p>
 
 
