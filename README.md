@@ -83,7 +83,20 @@ Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de le
 Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análise do tráfego:
 
 ### 1. Envenenamento ARP (Ettercap)
-![Ettercap Config](evidencias/..)
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="evidencias/...jpeg" width="2000px"><br>
+      <b>Envenenamento Arp na rede </b>
+    </td>
+    <td align="center">
+      <img src="evidencias/scandehosts.jpeg" width="7000px"><br>
+      <b>Ettercap buscando hosts </b>
+    </td>
+  </tr>
+</table>
+
+
 *Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
 
 ### 2. Captura de Tráfego (Wireshark)
