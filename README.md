@@ -57,17 +57,20 @@ Abaixo estão as capturas detalhadas realizadas durante o ataque MITM, organizad
 
 ### 1. Análise de Criptografia e Protocolos Seguros
 Neste cenário, observamos como o TLS protege os dados, mesmo com a interceptação ativa.
+
 *   **Tráfego WhatsApp:**
    <p align="left">
-  <img src="evidencias/...jpeg" width="900px">
+  <img src="evidencias/TLSapp.jpeg" width="900px">
 </p>
  
-* *Nota:* Tráfego cifrado via TLS/QUIC, garantindo a privacidade dos dados
 
 ### 2. Estudo de Caso: Spotify e Detran.ce.gov (TCP Stream)
 Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de leitura dos dados via Stream.
-*   **Tráfego Geral do Spotify e acesso ao site do detran.ce:** ![Spotify](evidencias/trafegospotify.jpeg)
 
+*   **Tráfego Geral do Spotify e acesso ao site do detran.ce:** 
+ <p align="left">
+  <img src="evidencias/tcpstreamgoogle.jpeg" width="55%">
+</p>
 
 *   **Análise de Conteúdo Spotify(TCP/UDP Stream):**
  <p align="left">
@@ -88,7 +91,7 @@ Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de le
   <img src="evidencias/...jpeg" width="55%">
 </p>
 
-    * *Legenda: Fluxo de pacotes do alvo sendo redirecionado para a máquina atacante (Kali Linux).*
+ * *Legenda: Fluxo de pacotes do alvo sendo redirecionado para a máquina atacante (Kali Linux).*
 
 ---
 
