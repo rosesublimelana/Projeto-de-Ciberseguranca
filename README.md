@@ -57,23 +57,37 @@ Abaixo estão as capturas detalhadas realizadas durante o ataque MITM, organizad
 
 ### 1. Análise de Criptografia e Protocolos Seguros
 Neste cenário, observamos como o TLS protege os dados, mesmo com a interceptação ativa.
-*   **Tráfego WhatsApp:** ![WhatsApp](evidencias/trafegowhatsapp.jpeg)
+*   **Tráfego WhatsApp:**
+   <p align="left">
+  <img src="evidencias/...jpeg" width="900px">
+</p>
+ 
+* *Nota:* Tráfego cifrado via TLS/QUIC, garantindo a privacidade dos dados
 
-*   **Protocolo TLS (Geral):** ![TLS](evidencias/trafegoTLS.jpeg)
-
-*   
 ### 2. Estudo de Caso: Spotify e Detran.ce.gov (TCP Stream)
 Aqui realizei uma comparação real entre o tráfego cifrado e a tentativa de leitura dos dados via Stream.
 *   **Tráfego Geral do Spotify e acesso ao site do detran.ce:** ![Spotify](evidencias/trafegospotify.jpeg)
 
-*   **Google (Tráfego Cifrado):** ![Google](evidencias/trafegocomcriptografiagoogle.jpeg)
 
-*   **Análise de Conteúdo (TCP Stream):** ![TCP Stream](evidencias/trafegosemcriptografiaspotify.jpeg)
-    * *Nota: Através do "Follow TCP Stream", foi possível analisar a estrutura dos pacotes, evidenciando onde a criptografia impede a leitura de dados sensíveis.*
+*   **Análise de Conteúdo Spotify(TCP/UDP Stream):**
+ <p align="left">
+  <img src="evidencias/.jpeg" width="55%">
+</p>
 
+
+*  **Análise de Conteúdo Site(TCP/UDP Stream):** 
+   <p align="left">
+  <img src="evidencias/tcpstreamgoogle.jpeg" width="55%">
+</p>
+
+   * *Legenda: Através do "Follow TCP Stream", foi possível analisar a estrutura dos pacotes, evidenciando onde a criptografia impede a leitura de dados sensíveis.*
 
 ### 3. Visão Geral do Ataque
-*   **Painel de Interceptação:** ![Interceptação](evidencias/trafegointerceptado.jpeg)
+*   **Painel de Interceptação:**
+ <p align="left">
+  <img src="evidencias/...jpeg" width="55%">
+</p>
+
     * *Legenda: Fluxo de pacotes do alvo sendo redirecionado para a máquina atacante (Kali Linux).*
 
 ---
@@ -88,19 +102,15 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
   <img src="evidencias/arpspoofing.jpeg" width="40%" />
   <img src="evidencias/scandehosts.jpeg" width="55%" />
 </p>
-
-
 *Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
 
-### 2. Captura de Tráfego (Wireshark)
-![Wireshark Geral](evidencias/filtrowireshark.jpeg)
+###  Captura de Tráfego (Wireshark)
+<p align="left">
+  <img src="evidencias/filtrowireshark.jpeg" width="55%">
+</p>
 *Legenda: Filtro aplicado para o IP do celular, mostrando pacotes HTTP e DNS.*
 
-### 3. Análise de Apps (WhatsApp/Instagram)
-![WhatsApp/Insta](evidencias/..)
-*Legenda: Tráfego cifrado via TLS/QUIC, garantindo a privacidade dos dados.*
-
-
+---
 ## 🎓 Conclusão
 O projeto evidenciou que, embora o ataque MITM seja eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem. Este estudo reforça a importância de protocolos de segurança em camadas.
 
