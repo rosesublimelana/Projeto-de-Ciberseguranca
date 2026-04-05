@@ -106,17 +106,19 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
   <img src="evidencias/arpspoofing.jpeg" width="40%" />
   <img src="evidencias/scandehosts.jpeg" width="55%" />
 </p>
-*Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
+
+  * *Legenda: Configuração de alvos (Target 1 e 2) no Ettercap.*
 
 ###  Captura de Tráfego (Wireshark)
 <p align="left">
   <img src="evidencias/filtrowireshark.jpeg" width="55%">
 </p>
-*Legenda: Filtro aplicado para o IP do celular, mostrando pacotes TCP e UDP*
+
+  * *Legenda: Filtro aplicado para o IP do celular, mostrando pacotes TCP e UDP*
 
 ---
 ## 🎓 Conclusão
-O projeto evidenciou que o ataque MITM seja eficaz para interceptar pacotes e a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem, contudo, não impede a interceptação do destino da requisição. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
+O projeto evidenciou que apesar do ataque MITM ser eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem, embora não impeça a interceptação do tráfego. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
 
 ---
 > *Os endereços IP exibidos nas capturas são privados (locais) e foram utilizados apenas para fins didáticos em ambiente de teste controlado, assim também as imagens disponibilizadas para fins de evidências são de minha autoria e foram retiradas apenas para comprovação de legalidade do projeto!*
