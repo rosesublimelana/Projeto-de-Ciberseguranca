@@ -49,7 +49,7 @@ Além de capturar requisições HTTP e DNS, a análise no Wireshark revelou:
 
 * **Tráfego TCP:** Identifiquei o "Three-Way Handshake" (SYN, SYN-ACK, ACK) estabelecendo conexões entre o celular e servidores externos, confirmando a integridade do fluxo de dados interceptado.
 
-    * *Nota técnica:* Diferente de algumas aplicações simples, o WhatsApp e Instagram utilizam criptografia (TLS/SSL). No Wireshark, observei pacotes do tipo **Application Data**, o que demonstra que, embora o conteúdo esteja protegido, o atacante ainda consegue mapear para quais servidores o host está se conectando.
+    * *Nota técnica:* Diferente de algumas aplicações simples, o WhatsApp e Instagram utilizam criptografia (TLS/SSL). No Wireshark, observei pacotes do tipo **Application Data**, o que demonstra que, embora o conteúdo esteja protegido, o atacante ainda consegue mapear para quais serviços o host está se conectando.
 
 ---
 ## 📸 Evidências da Interceptação Técnica
