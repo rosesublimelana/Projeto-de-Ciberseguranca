@@ -118,7 +118,7 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 O projeto evidenciou que o ataque MITM seja eficaz para interceptar pacotes e a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem, contudo, não impede a interceptação do destino da requisição. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
 
 ---
-> *Os endereços IP exibidos nas capturas são privados (locais) e foram utilizados apenas para fins didáticos em ambiente de teste controlado, assim também as imagens disponibilizadas para fins de evidências são de minha autoria e foram retiradas apenas para fins didáticos!*
+> *Os endereços IP exibidos nas capturas são privados (locais) e foram utilizados apenas para fins didáticos em ambiente de teste controlado, assim também as imagens disponibilizadas para fins de evidências são de minha autoria e foram retiradas apenas para comprovação de legalidade do projeto!*
 
 ---
 **Projeto desenvolvido por Laura Naiane** 🚀
