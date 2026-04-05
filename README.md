@@ -85,8 +85,8 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 ### 1. Envenenamento ARP (Ettercap)
 
 <p align="center">
-  <img src="evidencias/FOTO_1.jpeg" width="45%" />
-  <img src="evidencias/FOTO_2.jpeg" width="45%" />
+  <img src="evidencias/arpspoofing.jpeg" width="40%" />
+  <img src="evidencias/scandehosts.jpeg" width="55%" />
 </p>
 
 
