@@ -2,7 +2,7 @@
 >1° parte
 # 💡 Simulação de Ataque MITM e Análise de Tráfego de Rede
    ## **Objetivo do projeto**
-Tenho como objetivo explorar vulnerabilidades de certificados e criptografia (SSL/TLS) e demonstrar a importância da utilização de defesa em profundidade, ao colocar camadas de segurança para diminuir os riscos de ataques como MITM e Brute Force, por meio da exploração das vulnerabilidades e ataques em ambientes controlados.
+Tenho como objetivo explorar vulnerabilidades de certificados e criptografia (SSL/TLS) e demonstrar a importância de protocolos de segurança e da defesa em profundidade para diminuir os riscos de ataques como MITM, por meio da exploração das vulnerabilidades do protocolo ARP e ataques em ambientes controlados.
 
 A primeira parte desse projeto demonstra a execução de um ataque **Man-in-the-Middle (MITM)** via **ARP Spoofing** com a ferramenta **Ettercap** e a análise detalhada dos pacotes capturados em diferentes cenários (Web, Apps e Serviços Governamentais) com a ferramenta **Wireshark**. Também será apresentada a análise dos dados obtidos e aplicação prática da criptografia dos serviços utilizados. Vou deixar registrado por meio de imagens e arquivos .docs e .pcapng.
 
@@ -115,7 +115,7 @@ Abaixo estão as capturas de tela que comprovam a eficácia do ataque e a análi
 
 ---
 ## 🎓 Conclusão
-O projeto evidenciou que, embora o ataque MITM seja eficaz para interceptar pacotes, a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
+O projeto evidenciou que o ataque MITM seja eficaz para interceptar pacotes e a adoção massiva de **HTTPS** e criptografia de ponta a ponta protege o conteúdo da mensagem, contudo, não impede a interceptação do destino da requisição. Este estudo reforça a importância de protocolos de segurança em camadas e a aplicação de defesa em profundidade em redes locais ou empresariais. Também reforça o risco de se conectar em redes de origem desconhecida, que deixa seu dispositivo vulnerável à ataques como este.
 
 ---
 > *Os endereços IP exibidos nas capturas são privados (locais) e foram utilizados apenas para fins didáticos em ambiente de teste controlado, assim também as imagens disponibilizadas para fins de evidências são de minha autoria e foram retiradas apenas para fins didáticos!*
