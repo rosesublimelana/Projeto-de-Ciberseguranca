@@ -3,9 +3,9 @@
 > License: GPLv3
 
    ## **Objetivo do projeto**
-Tenho como objetivo explorar vulnerabilidades de certificados e criptografia (SSL/TLS) e demonstrar a importância de protocolos de segurança e da defesa em profundidade para diminuir os riscos de ataques como MITM, por meio da exploração das vulnerabilidades do protocolo ARP e ataques em ambientes controlados.
+Tenho como objetivo explorar vulnerabilidades de certificados e criptografia (SSL/TLS) e demonstrar a importância de protocolos de segurança e da defesa em profundidade para diminuir os riscos de ataques,como MITM, por meio da exploração das vulnerabilidades do protocolo ARP e ataques em ambientes controlados.
 
-A primeira parte desse projeto demonstra a execução de um ataque **Man-in-the-Middle (MITM)** via **ARP Spoofing** com a ferramenta **Ettercap** e a análise detalhada dos pacotes capturados em diferentes cenários (Web, Apps e Serviços Governamentais) com a ferramenta **Wireshark**. Também será apresentada a análise dos dados obtidos e aplicação prática da criptografia dos serviços utilizados. Vou deixar registrado por meio de imagens e arquivos .docs e .pcapng.
+A primeira parte desse projeto demonstra a execução de um ataque **Man-in-the-Middle (MITM)** via **ARP Spoofing** com a ferramenta **Ettercap** e a análise detalhada dos pacotes capturados em diferentes cenários (Web, Apps e Serviços Governamentais) com a ferramenta **Wireshark**. Também será apresentada a análise dos dados obtidos e aplicação prática da criptografia dos serviços utilizados.
 
 ---
 
